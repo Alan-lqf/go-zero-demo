@@ -2,5 +2,5 @@ Name: search-api
 Host: 0.0.0.0
 Port: 8889
 Auth:
-  AccessSecret: "qwerasdf"
+  AccessSecret: qwerasdf
   AccessExpire: 86400

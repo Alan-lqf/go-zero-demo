@@ -8,5 +8,5 @@ CacheRedis:
     Pass:
     Type: node
 Auth:
-  AccessSecret: "qwerasdf"
+  AccessSecret: qwerasdf
   AccessExpire: 86400
