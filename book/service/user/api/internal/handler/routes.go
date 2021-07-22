@@ -18,6 +18,5 @@ func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {
 				Handler: loginHandler(serverCtx),
 			},
 		},
-		rest.WithJwt(serverCtx.Config.Auth.AccessSecret),
 	)
 }
